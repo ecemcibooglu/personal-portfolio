@@ -18,11 +18,15 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #FFFFFF;}
+/* ul.topnav li a:hover:not(.active) {background-color: #FFFFFF;} */
 
-ul.topnav li a.active {text-decoration: underline;}
+ul.topnav li a.active {
+  text-decoration: underline!important;
+}
 
-ul.topnav li a.hover {text-decoration: underline;}
+ul.topnav li a.hover {
+  text-decoration: underline!important;
+}
 
 
 ul.topnav li.right {float: right;}
