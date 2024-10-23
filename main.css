@@ -1,0 +1,78 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #FFFFFF;}
+
+ul.topnav li a.active {text-decoration: underline;}
+
+ul.topnav li a.hover {text-decoration: underline;}
+
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.btn {
+background-color: #000;
+color: #FFFFFF;
+border: 2px solid #000;
+}
+
+.btn:hover {
+  background-color: #FFFFFF;
+  color: #000;
+  border: 2px solid #000;
+  }
+
+h3, .footer-text, p {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 4.25rem !important;
+  margin-bottom: 5%;
+  font-family: "Itim", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+
+.border{
+  border: 2px solid #000!important;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #000!important;
+}
